@@ -1,7 +1,49 @@
-h2 {
-    color: rgb(224, 67, 94);
+header img {
+    width: 200px;
+    padding: 30px;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    text-align: left;
+    /* kodėl neveikia lygiuotė? */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: rgb(218, 59, 146);
 }
 
 img {
-    width: 300px;
+    width: 450px;
+    ;
+}
+
+input {
+    padding:15px; 
+    border:3px solid rgb(218, 59, 146); 
+    border-radius: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer {
+    color: rgb(97, 97, 97);
+}
+
+th, td {
+    padding: 10px;
+  }
+
+footer img {
+    width: 200px;
+    padding: 30px;   
 }
