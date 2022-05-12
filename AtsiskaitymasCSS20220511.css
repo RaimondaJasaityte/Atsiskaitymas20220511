@@ -3,6 +3,14 @@ header img {
     padding: 30px;
 }
 
+.header-links {
+    text-align: right;
+}
+
+.pinklink {
+    color: rgb(218, 59, 146);
+}
+
 nav a {
     color: grey;
     text-decoration: none;
@@ -11,7 +19,7 @@ nav a {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h4 {
@@ -41,9 +49,35 @@ footer {
 
 th, td {
     padding: 10px;
+    text-align: center;
+    margin-right: 30px;
   }
 
 footer img {
-    width: 200px;
-    padding: 30px;   
+    width: 25px;
+    padding: 2px;   
 }
+
+.choices {
+    display: flex;
+    width: 400px;
+}
+
+.choices img {
+    width: 12px;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-color: lightgray;
+    padding: 5px;
+} 
+
+#green-girl {
+    display: inline-flex;
+    float: right;
+}
+
+
+@media screen and (min-width: 768px) {
+    display: inline;
+ }

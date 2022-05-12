@@ -6,55 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="AtsiskaitymasCSS20220511.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 <body>
-
     <header>
         <img src="Pradinis logo.PNG" alt="puslapio logotipas">
-        <nav>
+    <!-- jei spėsiu pakeisti logo paveiksliuką -->
+        <nav class="header-links">
             <a href="a">Features</a>
             <a href="a">About</a>
             <a href="a">Launch</a>
-            <a href="a">Sign Up</a>
+            <a href="a" class="pinklink">Sign Up</a>
         </nav>
     </header>
 
     <main>
         <h4>LOUNCHING SOON</h4>
         <h1>An NFT like no other</h1>
-            <img src="graphic.png" alt="rožinis monstras">
+        <img src="graphic.png" alt="rožinis monstras" style="float: right">
         <p>Don't miss out on the release of our new NFT. Sing up below to receive updates when we go live.</p>
         <input type="submit" value="Sing Up">
         <object data="background.svg" type=""></object>
+        <!-- užkelti tekstą ant svg backgroundo -->
+        
+    <div class="container">
         <object data="1.svg" type=""></object>
         <object data="2.svg" type=""></object>
         <object data="3.svg" type=""></object>
         <object data="4.svg" type=""></object>
         <object data="5.svg" type=""></object>
+    </div>
+
         <h3>LE Super Rare Auction</h3>
-        <p>We have released four limited edition NFTs early which can be bid on via <u>OpenSea</u></p>
-        <div>
-            <object data="ntf-1.svg" type=""></object>
-            <object data="nft-2.svg" type=""></object>
-            <object data="ntf-3.svg" type=""></object>
-            <object data="ntf-4.svg" type=""></object>
+        <p>We have released four limited edition NFTs early which can be bid on via <u>OpenSea.</u></p>
+        <div class="choices">
+            <div class="box1">
+                <object data="ntf-1.svg" type=""></object>
+                <h5>GLOOP SERIES TOP BID </h5>
+                <h3>Purple Man <img src="eth.svg" alt="valiuta"> 2.99 ETH</h3> 
+                <p>#12983 1 day left</p>
+            </div>
+            <div class="box2">
+                <object data="nft-2.svg" type=""></object>
+                <h5>GLOOP SERIES TOP BID </h5>
+                <h3>Beige <img src="eth.svg" alt="valiuta"> 2.99 ETH</h3> 
+                <p>#12983 1 day left</p>
+            </div>
+            <div class="box3">
+                <object data="ntf-3.svg" type=""></object>
+                <h5>GLOOP SERIES TOP BID </h5>
+                <h3>Red Man <img src="eth.svg" alt="valiuta"> 2.99 ETH</h3> 
+                <p>#12983 1 day left</p>
+            </div>
+            <div class="box4">
+                <object data="ntf-4.svg" type=""></object>
+                <h5>GLOOP SERIES TOP BID </h5>
+                <h3>Green <img src="eth.svg" alt="valiuta"> 2.99 ETH</h3> 
+                <p>#12983 1 day left</p>
+            </div>
         </div>
         <hr>
         <h4>LOUNCHING SOON</h4>
         <h2>An NFT like no other</h2>
         <p>Don't miss out on the release of our new NFT. Sing up below to receive updates when we go live.</p>
         <input type="submit" value="Sing Up">
-        <div>
+        <div id="green-girl">
             <object data="upsell-footer-image.svg" type=""></object>
         </div>
+        <hr>
     </main>
 
     <footer>
         <img src="Pradinis logo.PNG" alt="puslapio logotipas">
         <h5>Exclusive NFT Collection</h5>
-        <img src="ikonėlės.PNG" alt="soc.media ikonos"> 
-        <!-- jei turėsiu laiko pakeisti ikonomis iš bibliotekos -->
+        <div class="footer-icons">
+            <img src="facebook.png" alt="facebook ikona">
+            <img src="twitter.png" alt="twitter ikona">
+            <img src="instagram.png" alt="instagram ikona">
+            <img src="tiktok.png" alt="tiktok ikona">
+        </div> 
         <table>
+            <table align="right">
             <tr>
               <th>ABOUT</th>
               <th>NFT</th>
@@ -78,6 +110,7 @@
                 <td>Learn</td>
             </tr>
         </table>
+        <br>
         <p>© 2022 Copyright 2022 NFTlanding</p>
         <p>Launching August 2022</p>
     </footer>
