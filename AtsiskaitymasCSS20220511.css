@@ -1,0 +1,106 @@
+body {
+    margin: 25px;
+}
+
+header img {
+    width: 200px;
+    padding: 10px;
+}
+
+.header-links {
+    text-align: right;
+}
+
+.pinklink {
+    color: rgb(218, 59, 146);
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h4 {
+    color: rgb(218, 59, 146);
+}
+
+img {
+    width: 450px;
+}
+
+input {
+    padding:15px; 
+    border:3px solid rgb(218, 59, 146); 
+    border-radius: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer {
+    color: rgb(97, 97, 97);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+footer img {
+    width: 25px;
+    padding: 2px;   
+}
+
+.choices {
+    display: flex;
+    width: 400px;
+}
+
+.choices img {
+    width: 12px;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-color: lightgray;
+    padding: 5px;
+} 
+
+#green-girl {
+    clear: right;
+}
+
+.with-pink-background {
+    background-image: url(background.png);
+    padding: 35px;
+    width: 1200px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+@media only screen and (max-width: 768px) {
+    header {
+        grid-template-columns: repeat(1, 1fr);
+    }
+ }
+
+header {
+    text-align: center;
+}
+
+.container {
+    display: block;  
+}
+
+table {
+    grid-template-columns: 1fr 1fr;
+}
